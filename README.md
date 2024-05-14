@@ -9,4 +9,4 @@ Uses:
 - [Matplotlib](https://matplotlib.org/stable/index.html)
 
 ## Picture of the Program
-[FinancialStatementAnalyzerScreenshot.png]
+![Screenshot of the program in use](FinancialStatementAnalyzerScreenshot.png
