@@ -14,8 +14,8 @@ You first enter the ticker symbol of the company you wish to evaluate
 
 Three types of data is available to plot:
 1. <ins>**Currency:**</ins> For metrics over 1000$
-2. Ratio: Scales in between 0 - 1
-3. Number: For metrics under 1000$
+2. <ins>**Ratio:**</ins> Scales in between 0 - 1
+3. <ins>**Number:**</ins> For metrics under 1000$
 
 Graph can be created from any three, the graph will update and replace the last each time one is created.
 
