@@ -13,7 +13,7 @@ This program uses:
 You first enter the ticker symbol of the company you wish to evaluate
 
 Three types of data is available to plot:
-1. Currency: For metrics over 1000$
+1. __**Currency:**__ For metrics over 1000$
 2. Ratio: Scales in between 0 - 1
 3. Number: For metrics under 1000$
 
