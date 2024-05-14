@@ -23,3 +23,7 @@ Seeing as this is the free API plan, historical data only accounts for the past 
 
 ## Picture of the Program
 ![Screenshot of the program in use](IncomeStatementAnalyzerScreenshot.png)
+
+## Features to be added
+- Tooltip: Hovering over the elements gives you theif function
+- Interactive Graph: Be able to zoom and move around the embedded graph
