@@ -21,7 +21,7 @@ Graph can be created from any three, the graph will update and replace the last 
 
 Seeing as this is the free API plan, historical data only accounts for the past 5 years.
 
-However, if you wish to [purchase a premium plan](https://site.financialmodelingprep.com/developer/docs/pricing), you may replace the ```API_KEY``` variable in the script, and alter the ```years``` variable to your liking.
+However, if you wish to [purchase a premium plan](https://site.financialmodelingprep.com/developer/docs/pricing), you may replace the ```API_KEY``` variable in the script with your own, and alter the ```years``` variable to your liking.
 
 ## Picture of the Program
 ![Screenshot of the program in use](IncomeStatementAnalyzerScreenshot.png)
