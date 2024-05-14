@@ -7,3 +7,6 @@ Uses:
 - [FMP's API](https://site.financialmodelingprep.com/developer/docs)
 - [CustomTKinter](https://felipetesc.github.io/CtkDocs/#/)
 - [Matplotlib](https://matplotlib.org/stable/index.html)
+
+## Picture of the Program
+[FinancialStatementAnalyzerScreenshot.png]
