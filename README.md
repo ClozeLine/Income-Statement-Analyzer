@@ -8,7 +8,10 @@ This program uses:
 - [FMP's API](https://site.financialmodelingprep.com/developer/docs)
 - [CustomTKinter](https://felipetesc.github.io/CtkDocs/#/)
 - [Matplotlib](https://matplotlib.org/stable/index.html)
-
+- [Datetime](https://docs.python.org/3/library/datetime.html)
+- [Requests](https://pypi.org/project/requests/)
+  
+  
 Here are the instructions on how to install these packages:
 1. Open up your integrated terminal
 2. Create a virtual environment *(optional but highly reccomended to avoid cluttering)* Follow these steps:
