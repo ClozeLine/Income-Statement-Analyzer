@@ -12,9 +12,9 @@ This program uses:
 - [Requests](https://pypi.org/project/requests/)
   
   
-Here are the instructions on how to install these packages:
+Here are the instructions on how to set up your environment:
 1. Open up your integrated terminal
-2. Create a virtual environment *(optional but highly reccomended to avoid cluttering)* Follow these steps:
+3. Create a virtual environment *(optional but highly reccomended to avoid cluttering)* Follow these steps:
    - ```python3 -m venv myenv```: replace "myvenv" with the name of your virtual environment
    - ```venv/bin/activate```: activate the virtual environment by running the activate script
 4. Make sure you have [pip](https://pypi.org/project/pip/) installed
@@ -22,6 +22,12 @@ Here are the instructions on how to install these packages:
    - ```pip install requests``` : for making request to the FMP API
    - ```pip install matplotlib```: to be able to visualize income statements as a graph
    - ```pip install customtkinter```: to be able to run the UI
+  
+   
+Next, you will need to create you own API key to request data from FMP'ss servers
+1. Create your account on [FMP's website](https://site.financialmodelingprep.com/)
+2. Navigate to the API details tab on the left (key icon) and generate your key
+3. In the code, keplace the ```API_KEY``` variable with your own
   
   *--> FMP and datetime do not need to be installed*
 
