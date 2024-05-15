@@ -26,7 +26,7 @@ Here are the instructions on how to set up your environment:
    
 Next, you will need to create you own API key to request data from FMP'ss servers
 1. Create your account on [FMP's website](https://site.financialmodelingprep.com/)
-2. Navigate to the API details tab on the left (key icon) and generate your key
+2. Navigate to the API details tab on the left *(key icon)* and generate your key
 3. In the code, keplace the ```API_KEY``` variable with your own
   
   *--> FMP and datetime do not need to be installed*
