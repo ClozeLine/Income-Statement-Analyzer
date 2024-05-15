@@ -22,6 +22,8 @@ Here are the instructions on how to install these packages:
    - ```pip install requests``` : for making request to the FMP API
    - ```pip install matplotlib```: to be able to visualize income statements as a graph
    - ```pip install customtkinter```: to be able to run the UI
+  
+  *--> FMP and datetime do not need to be installed*
 
 ## How it works:
 You first enter the ticker symbol of the company you wish to evaluate
