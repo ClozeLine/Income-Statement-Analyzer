@@ -1,5 +1,4 @@
 import tkinter
-
 import requests
 import matplotlib.pyplot as plt
 from tooltip import Tooltip
