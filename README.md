@@ -11,8 +11,11 @@ This program uses:
 
 Here are the instructions on how to install these packages:
 1. Open up your integrated terminal
-2. Make sure you have [pip](https://pypi.org/project/pip/) installed
-3. run these following commands:
+2. Create a virtual environment (optional but highly reccomended to avoid cluttering)
+   - ```python3 -m venv myenv```: Replace "myvenv" with the name of your virtual environment
+   - ```venv/bin/activate```: Activate the virtual environment by running the activate script
+4. Make sure you have [pip](https://pypi.org/project/pip/) installed
+5. run these following commands:
    - ```pip install requests``` : for making request to the FMP API
    - ```pip install matplotlib```: to be able to visualize income statements as a graph
    - ```pip install customtkinter```: to be able to run the UI
