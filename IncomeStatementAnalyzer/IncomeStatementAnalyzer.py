@@ -21,7 +21,7 @@ root.title("Income Statement Analyzer")
 # Set up URL for request
 base_url = 'https://financialmodelingprep.com/api'
 data_type = "income-statement"
-API_KEY = "929oEJGUb1m3ssPjHwgSPcyf2thP2Ym9"
+API_KEY = "969oEJGUb1m3SsPzHwgSPccf2thP2Ym1" # This key does not work
 years = 5
 
 
