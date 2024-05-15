@@ -9,6 +9,14 @@ This program uses:
 - [CustomTKinter](https://felipetesc.github.io/CtkDocs/#/)
 - [Matplotlib](https://matplotlib.org/stable/index.html)
 
+Here are the instructions on how to install these packages:
+1. Open up your integrated terminal
+2. Make sure you have [pip](https://pypi.org/project/pip/) installed
+3. run these following commands:
+   - ```pip install requests``` : for making request to the FMP API
+   - ```pip install matplotlib```: to be able to visualize income statements as a graph
+   - ```pip install customtkinter```: to be able to run the UI
+
 ## How it works:
 You first enter the ticker symbol of the company you wish to evaluate
 
