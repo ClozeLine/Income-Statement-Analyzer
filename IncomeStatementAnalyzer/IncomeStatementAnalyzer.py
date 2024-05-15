@@ -1,4 +1,5 @@
 import tkinter
+
 import requests
 import matplotlib.pyplot as plt
 from tooltip import Tooltip
@@ -20,12 +21,17 @@ root.title("Income Statement Analyzer")
 # Set up URL for request
 base_url = 'https://financialmodelingprep.com/api'
 data_type = "income-statement"
-API_KEY = "969oEJGUb1m3SsPzHwgSPccf2thP2Ym1" # This key does not work
+API_KEY = "929oEJGUb1m3ssPjHwgSPcyf2thP2Ym9"  # This is not a real key
 years = 5
 
 
 def manage_display():
-    plot(data, [], "ratio")
+    """
+    ---> This function plots a sample chart to give visual indication to the user as to the position of
+    to-be generated graphs
+    :return: n/a
+    """
+    plot(None, [], "ratio")
     root.mainloop()
 
 
@@ -42,9 +48,9 @@ def get_input_ticker():
     data = response.json()
 
     if len(data) == 0:
-        ticker_message_label.configure(text="Invalid Ticker")
+        ticker_message_label.configure(text="Invalid Ticker", text_color="#DC392E")
     else:
-        ticker_message_label.configure(text=f"Currently Viewing: {user_input}")
+        ticker_message_label.configure(text=f"Currently Viewing: {user_input}", text_color="white")
         return user_input
 
 
@@ -230,6 +236,7 @@ def make_ratio_graph():
 def make_number_graph():
     """
     --> This function checks which checkboxes are checked, to then retrieve the necessary data
+
     :return: n/a
     """
     # Check for eps
@@ -255,7 +262,15 @@ def format_currency(x, pos, currency):
 
 
 def print_statements(financial_statements):
-    print("PLEASE NOTE THIS IS THE MOST RECENT STATEMENT")
+    """
+    ---> This function prints out the dictionary format data line by line
+    PLEASE NOTE: By default, it only generates the MOST RECENT income statement.
+    If you wish to visualize all or more, please either omit the "[0]" or alter it.
+
+    :param financial_statements: list of financial statements from the last x years
+    :return: n/a
+    """
+
     for name, metric in financial_statements[0].items():
         print(name, ":", metric)
 
@@ -356,6 +371,7 @@ def get_matching_function(desired_data, financial_statements):
 def get_dates_of_reports(financial_statements):
     """
     --> This function gets the dates from the financial statements and returns them to be plotted
+
     :param financial_statements: list of financial statements from the last x years
     :return: list of dates
     """
@@ -371,6 +387,7 @@ def get_dates_of_reports(financial_statements):
 def plot(financial_statements, metrics, abscisse_data_type):
     """
     --> This function handles plotting the data
+
     :param abscisse_data_type: what kind of data is being plotted (currency, ratio, numerical)
     :param financial_statements: list of financial statements from the last x years
     :param metrics: what data to plot
