@@ -10,8 +10,23 @@ This program uses:
 - [Matplotlib](https://matplotlib.org/stable/index.html)
 - [Datetime](https://docs.python.org/3/library/datetime.html)
 - [Requests](https://pypi.org/project/requests/)
+
+- ## How it works:
+You first enter the ticker symbol of the company you wish to evaluate
+
+Three types of data is available to plot:
+1. <ins>**Currency:**</ins> For metrics over 1000$
+2. <ins>**Ratio:**</ins> Scales in between 0 - 1
+3. <ins>**Number:**</ins> For metrics under 1000$
+
+Graph can be created from any three types, the graph will update and replace the last each time one is created _(no plotting two types at once)_.
+
+Seeing as this is the free API plan, historical data only accounts for the past 5 years. However, if you wish to [purchase a premium plan](https://site.financialmodelingprep.com/developer/docs/pricing), you may replace the ```API_KEY``` variable in the script with your own, and alter the ```years``` variable to your liking.
+
+## Picture of the Program
+![Screenshot of the program in use](IncomeStatementAnalyzerScreenshot.png)
   
-  
+## Set it up
 Here are the instructions on how to set up your environment:
 1. Start off by cloning my repo:
    ```
@@ -36,21 +51,6 @@ Next, you will need to create you own API key to request data from FMP's servers
 3. In the code, keplace the ```API_KEY``` variable with your own
   
   *--> FMP and datetime do not need to be installed*
-
-## How it works:
-You first enter the ticker symbol of the company you wish to evaluate
-
-Three types of data is available to plot:
-1. <ins>**Currency:**</ins> For metrics over 1000$
-2. <ins>**Ratio:**</ins> Scales in between 0 - 1
-3. <ins>**Number:**</ins> For metrics under 1000$
-
-Graph can be created from any three types, the graph will update and replace the last each time one is created _(no plotting two types at once)_.
-
-Seeing as this is the free API plan, historical data only accounts for the past 5 years. However, if you wish to [purchase a premium plan](https://site.financialmodelingprep.com/developer/docs/pricing), you may replace the ```API_KEY``` variable in the script with your own, and alter the ```years``` variable to your liking.
-
-## Picture of the Program
-![Screenshot of the program in use](IncomeStatementAnalyzerScreenshot.png)
 
 ## Contributing
 
