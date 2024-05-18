@@ -28,7 +28,7 @@ Seeing as this is the free API plan, historical data only accounts for the past 
   
 ## Set it up
 Here are the instructions on how to set up your environment:
-1. Start off by cloning my repo:
+1. Start off by cloning the repo:
    ```
    git clone https://github.com/ClozeLine/Income-Statement-Analyzer.git
    ```
