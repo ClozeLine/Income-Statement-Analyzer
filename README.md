@@ -13,7 +13,7 @@ This program uses:
   
   
 Here are the instructions on how to set up your environment:
-1. Open up your integrated terminal
+1. Open up your terminal and clone my repo
 3. Create a virtual environment *(optional but highly reccomended to avoid cluttering)*. Follow these steps:
    - ```python3 -m venv myenv```: replace "myvenv" with the name of your virtual environment
    - ```venv/bin/activate```: activate the virtual environment by running the activate script
