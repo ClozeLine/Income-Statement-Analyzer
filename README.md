@@ -40,7 +40,7 @@ Here are the instructions on how to set up your environment:
    - **Unix or MacOS:** ```source myvenv/bin/activate```
 5. Make sure you have [pip](https://pypi.org/project/pip/) installed
 6. run these following commands:
-   - ```pip install requests``` : for making request to the FMP API
+   - ```pip install requests```: for making request to the FMP API
    - ```pip install matplotlib```: to be able to visualize income statements as a graph
    - ```pip install customtkinter```: to be able to run the UI
   
