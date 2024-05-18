@@ -17,11 +17,14 @@ Here are the instructions on how to set up your environment:
    ```
    https://github.com/ClozeLine/Income-Statement-Analyzer.git
    ```
-3. Create a virtual environment *(optional but highly reccomended to avoid cluttering)*. Follow these steps:
-   - ```python3 -m venv myenv```: replace "myvenv" with the name of your virtual environment
-   - ```venv/bin/activate```: activate the virtual environment by running the activate script
-4. Make sure you have [pip](https://pypi.org/project/pip/) installed
-5. run these following commands:
+3. Create a virtual environment *(optional but highly reccomended to avoid cluttering)*
+
+   - ```python3 -m venv myvenv```: replace "myvenv" with the name of your virtual environment
+4. Activate the virtual environment by running the activate script
+   - **Windows:** ```myenv\Scripts\activate```
+   - **Unix or MacOS:** ```source myvenv/bin/activate```
+5. Make sure you have [pip](https://pypi.org/project/pip/) installed
+6. run these following commands:
    - ```pip install requests``` : for making request to the FMP API
    - ```pip install matplotlib```: to be able to visualize income statements as a graph
    - ```pip install customtkinter```: to be able to run the UI
