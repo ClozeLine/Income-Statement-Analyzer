@@ -13,7 +13,10 @@ This program uses:
   
   
 Here are the instructions on how to set up your environment:
-1. Open up your terminal and clone my repo
+1. Start off by cloning my repo
+   ```
+   https://github.com/ClozeLine/Income-Statement-Analyzer.git
+   ```
 3. Create a virtual environment *(optional but highly reccomended to avoid cluttering)*. Follow these steps:
    - ```python3 -m venv myenv```: replace "myvenv" with the name of your virtual environment
    - ```venv/bin/activate```: activate the virtual environment by running the activate script
@@ -24,7 +27,7 @@ Here are the instructions on how to set up your environment:
    - ```pip install customtkinter```: to be able to run the UI
   
    
-Next, you will need to create you own API key to request data from FMP'ss servers
+Next, you will need to create you own API key to request data from FMP's servers
 1. Create your account on [FMP's website](https://site.financialmodelingprep.com/)
 2. Navigate to the API details tab on the left *(key icon)* and generate your key
 3. In the code, keplace the ```API_KEY``` variable with your own
@@ -39,7 +42,7 @@ Three types of data is available to plot:
 2. <ins>**Ratio:**</ins> Scales in between 0 - 1
 3. <ins>**Number:**</ins> For metrics under 1000$
 
-Graph can be created from any three, the graph will update and replace the last each time one is created.
+Graph can be created from any three types, the graph will update and replace the last each time one is created _(no plotting two types at once)_.
 
 Seeing as this is the free API plan, historical data only accounts for the past 5 years. However, if you wish to [purchase a premium plan](https://site.financialmodelingprep.com/developer/docs/pricing), you may replace the ```API_KEY``` variable in the script with your own, and alter the ```years``` variable to your liking.
 
