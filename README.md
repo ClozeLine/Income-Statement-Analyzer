@@ -13,14 +13,14 @@ This program uses:
   
   
 Here are the instructions on how to set up your environment:
-1. Start off by cloning my repo
+1. Start off by cloning my repo:
    ```
-   https://github.com/ClozeLine/Income-Statement-Analyzer.git
+   git clone https://github.com/ClozeLine/Income-Statement-Analyzer.git
    ```
-3. Create a virtual environment *(optional but highly reccomended to avoid cluttering)*
+3. Create a virtual environment *(optional but highly reccomended to avoid cluttering)*:
 
    - ```python3 -m venv myvenv```: replace "myvenv" with the name of your virtual environment
-4. Activate the virtual environment by running the activate script
+4. Activate the virtual environment by running the activate script:
    - **Windows:** ```myenv\Scripts\activate```
    - **Unix or MacOS:** ```source myvenv/bin/activate```
 5. Make sure you have [pip](https://pypi.org/project/pip/) installed
