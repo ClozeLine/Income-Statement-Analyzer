@@ -1,10 +1,8 @@
-import tkinter
-
 import requests
 import matplotlib.pyplot as plt
 from tooltip import Tooltip
 from matplotlib.ticker import FuncFormatter, FormatStrFormatter
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 import datetime
 import customtkinter as ctk
 
@@ -427,7 +425,10 @@ def embed_plot(figure):
         widget.destroy()
 
     canvas = FigureCanvasTkAgg(figure, master=plot_frame)
+    toolbar = NavigationToolbar2Tk(canvas=canvas, window=plot_frame, pack_toolbar= False)
+    toolbar.update()
     canvas.get_tk_widget().pack()
+    toolbar.pack(anchor="w")
 
 
 def get_currency(financial_statements):
