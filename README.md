@@ -58,5 +58,5 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## Features to be added
 - Tooltip: Hovering over the elements gives you their function
-- Interactive Graph: Be able to zoom and move around the embedded graph
-- Be able to download graphs
+- ~~Interactive Graph: Be able to zoom and move around the embedded graph~~ Added (May 18)
+- ~~Be able to download graphs~~ Added (May 18)
